@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="W9W-4F-Boh">
+                                <rect key="frame" x="89" y="52" width="423" height="528"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADDRESS BOOK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8b-Lt-RV2">
+                                        <rect key="frame" x="0.0" y="0.0" width="423" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="Z04-1i-Ldj"/>
+                                            <constraint firstAttribute="width" constant="423" id="fPi-32-Hte"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="PLb-EE-C7f">
+                                        <rect key="frame" x="18" y="148" width="388" height="380"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="RJI-ts-AhK">
+                                                <rect key="frame" x="0.0" y="0.0" width="388" height="175"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="L93-LI-EbJ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="164" height="175"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheesy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3r-MB-Jup">
+                                                                <rect key="frame" x="0.0" y="0.0" width="164" height="21"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2Z-7F-1AW">
+                                                                <rect key="frame" x="0.0" y="21" width="164" height="154"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="164" id="OmN-h4-ntR"/>
+                                                                    <constraint firstAttribute="height" constant="154" id="YIr-Jc-T7U"/>
+                                                                </constraints>
+                                                                <state key="normal" image="contact_Cheesy.jpg"/>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aKx-GP-zhH">
+                                                        <rect key="frame" x="224" y="0.0" width="164" height="175"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Freckles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHC-Gv-uwq">
+                                                                <rect key="frame" x="0.0" y="0.0" width="164" height="21"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cG-XP-Ov9">
+                                                                <rect key="frame" x="0.0" y="21" width="164" height="154"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="154" id="C54-C2-vK0"/>
+                                                                    <constraint firstAttribute="width" constant="164" id="JwN-4P-HBL"/>
+                                                                </constraints>
+                                                                <state key="normal" image="contact_Freckles.jpg"/>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="jj1-PC-ABU">
+                                                <rect key="frame" x="0.0" y="205" width="388" height="175"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="OXW-cA-iGU">
+                                                        <rect key="frame" x="0.0" y="0.0" width="164" height="175"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maxi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qc-My-HAE">
+                                                                <rect key="frame" x="0.0" y="0.0" width="164" height="21"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwt-YB-xVA">
+                                                                <rect key="frame" x="0.0" y="21" width="164" height="154"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="164" id="aMh-V9-Ph6"/>
+                                                                    <constraint firstAttribute="height" constant="154" id="gna-sN-2w9"/>
+                                                                </constraints>
+                                                                <state key="normal" image="contact_Maxi.jpg"/>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Bt8-eX-wvD">
+                                                        <rect key="frame" x="194" y="0.0" width="194" height="175"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shippo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yd8-in-Gjb">
+                                                                <rect key="frame" x="0.0" y="0.0" width="194" height="21"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QV2-3M-81p">
+                                                                <rect key="frame" x="0.0" y="21" width="194" height="154"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="154" id="RXx-E6-uVM"/>
+                                                                    <constraint firstAttribute="width" constant="164" id="Rip-CK-Ita"/>
+                                                                </constraints>
+                                                                <state key="normal" image="contact_Shippo.jpg"/>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="W9W-4F-Boh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R4A-cz-UVs"/>
+                            <constraint firstAttribute="bottom" secondItem="W9W-4F-Boh" secondAttribute="bottom" constant="20" symbolic="YES" id="nJA-H7-SsR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="400"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="contact_Cheesy.jpg" width="500" height="500"/>
+        <image name="contact_Freckles.jpg" width="500" height="500"/>
+        <image name="contact_Maxi.jpg" width="500" height="500"/>
+        <image name="contact_Shippo.jpg" width="500" height="500"/>
+    </resources>
+</document>
